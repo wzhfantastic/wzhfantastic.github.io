@@ -77,8 +77,8 @@ kramdown:
 ba_track_id: 86e9fac12c14795ee7112f2679f0dacc
 
 # Google Analytics
-#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-#ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-116062302-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto #qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
