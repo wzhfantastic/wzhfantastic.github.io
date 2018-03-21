@@ -67,7 +67,7 @@ fixed4 frag(v2f i) : SV_Target
 }
 ```
 ![first-raymarching](/img/PostsImg/VolumeRenderingPractice/first-raymarching.png)
-Yeah, we create a sphere in a cube! It's totally mathmatic! We can set alpha to 0 in raymarching failed area. Than we a get only a sphere.
+Yeah, we create a sphere in a cube! It's totally mathmatical! We can set alpha to 0 in raymarching failed area. Than we can get just a sphere.
 ![sphere](/img/PostsImg/VolumeRenderingPractice/sphere.png)
 **Lighting**
 
