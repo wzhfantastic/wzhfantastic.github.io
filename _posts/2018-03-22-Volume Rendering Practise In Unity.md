@@ -4,7 +4,7 @@ title:      Volume Rendering Practice In Unity
 subtitle:   Raymarching Distance Field
 date:       2018-03-22
 author:     Fantasy Wang
-header-img: //img/post-bg-github-cup.jpg
+header-img: /img/post-bg-github-cup.jpg
 catalog: true
 tags:
     - Unity
