@@ -13,7 +13,7 @@ tags:
 ---
 In traditional rendering pipeline, we just post preset vertices to gpu and get what shape we want.
 However, these triangles seem to be sharp and cold. When we want to draw a sphere, we need to create enough triangles to hide their sharp.
-Luckily, we have volume rendering. So today I will try ***raymarching*** to rendering some simple shapes in Unity.
+Luckily, we have volume rendering. So today I will try ***raymarching*** to render some simple shapes in Unity.
 ### Raymarching algorithm
 - render a simple mesh which can restrict rendering area
 - in fragment shading, draw a ray to view direction. Step by step, check whether the ray hits our target shape. If hits, shade with target shape color.
