@@ -4,7 +4,7 @@ title:      Volume Rendering Practice In Unity
 subtitle:   Raymarching Distance Field
 date:       2018-03-22
 author:     Fantasy Wang
-header-img: //img/post-bg-github-cup.jpg
+header-img: img/post-bg-github-cup.jpg
 catalog: true
 tags:
     - Unity
@@ -13,7 +13,7 @@ tags:
 ---
 In traditional rendering pipeline, we just post preset vertices to gpu and get what shape we want.
 However, these triangles seem to be sharp and cold. When we want to draw a sphere, we need to create enough triangles to hide their sharp.
-Luckily, we have volume rendering. So today I will try ***raymarching*** to rendering some simple shapes in Unity.
+Luckily, we have volume rendering. So today I will try ***raymarching*** to render some simple shapes in Unity.
 ### Raymarching algorithm
 - render a simple mesh which can restrict rendering area
 - in fragment shading, draw a ray to view direction. Step by step, check whether the ray hits our target shape. If hits, shade with target shape color.
@@ -67,7 +67,7 @@ fixed4 frag(v2f i) : SV_Target
 }
 ```
 ![first-raymarching](/img/PostsImg/VolumeRenderingPractice/first-raymarching.png)
-Yeah, we create a sphere in a cube! It's totally mathmatic! We can set alpha to 0 in raymarching failed area. Than we a get only a sphere.
+Yeah, we create a sphere in a cube! It's totally mathmatical! We can set alpha to 0 in raymarching failed area. Then we can get just a sphere.
 ![sphere](/img/PostsImg/VolumeRenderingPractice/sphere.png)
 **Lighting**
 
