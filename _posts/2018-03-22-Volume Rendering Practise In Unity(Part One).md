@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Volume Rendering Practice In Unity
+title:      Volume Rendering Practice In Unity(Part One)
 subtitle:   Raymarching Distance Field
 date:       2018-03-22
 author:     Fantasy Wang
@@ -9,6 +9,7 @@ catalog: true
 tags:
     - Unity
     - Rendering
+    - Volume Rendering
     - Raymarching
 ---
 In traditional rendering pipeline, we just post preset vertices to gpu and get what shape we want.
