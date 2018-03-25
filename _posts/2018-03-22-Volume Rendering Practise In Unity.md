@@ -76,12 +76,10 @@ We can add following lighting function
 ```c
 fixed4 simpleLight (fixed4 color, fixed3 normal, float3 viewDirection) 
 {
-    fixed3 lightDir = _WorldSpaceLightPos0.xyz;	// Light direction
-    fixed3 lightCol = _LightColor0.rgb;		// Light color
-
+    fixed3 lightDir = _WorldSpaceLightPos0.xyz;
+    fixed3 lightCol = _LightColor0.rgb;
     //Lambert
     fixed NdotL = max(dot(normal, lightDir),0);
-
     //Specular
     fixed3 h = (lightDir - viewDirection) / 2;
     fixed s = pow( dot(normal, h), _SpecularPower) * _Gloss;
