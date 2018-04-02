@@ -86,7 +86,6 @@ UNITY_LIGHTMODEL_AMBIENT * min(1, pow(aoRet, 0.25))
 That looks better.
 
 ### Conclusion
-![Final Effect](/img/PostsImg/VolumeRenderingPractice/finaleffect.gif)
 I have used some simple code to make the volume more realistic, that's interesting and amazing. I believe if we spend more time on creating and shading volumetric object, we can see more great view! 
 
 In next part, I think I should find some more pratical application for this volume rendering technique. Hope you enjoy my post!
